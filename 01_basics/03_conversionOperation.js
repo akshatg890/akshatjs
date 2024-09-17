@@ -14,3 +14,9 @@ console.log(valueinString)
 true=1; false=0;
 
 */
+let game=1;
+let g1=game++
+console.log(g1)
+let game1=2;
+let g=++game;
+console.log(g)

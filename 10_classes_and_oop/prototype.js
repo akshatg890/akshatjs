@@ -42,7 +42,7 @@ const TASupport = {
 Teacher.__proto__ = User
 
 // modernsymtax
-// Object.setPrototypeOf(TeachingSupport,TASupport);
+Object.setPrototypeOf(TeachingSupport,Teacher);
 
 let username="akshat     "
 String.prototype.truelength=function(){
